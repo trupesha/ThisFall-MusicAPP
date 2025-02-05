@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This fall - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/731fd7942c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="fall_icon-removebg-preview.png" alt="This fall" /> This fall
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Your Autumn Playlist</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img src="coveroct.jpg" alt="1" />
+          <span> We Fell in Love in October</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 3:04 </span>
+            <i id="0" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="coverslowdancing.jpg" alt="1" />
+          <span> This is what Slow Dancing Feels Like</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 2:25 </span>
+            <i id="1" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+            <!-- Fixed the id -->
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="coversweater.jpg" alt="1" />
+          <span>Sweater Weather</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 4:00 </span>
+            <i id="2" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="coverseptends.jpg" alt="1" />
+          <span> Wake Me up When September Ends</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 4:45 </span>
+            <i id="3" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="coverstub.jpg" alt="1" />
+          <span> Stubborn Love</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 4:39 </span>
+            <i id="4" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="coverhome.jpg" alt="1" />
+          <span> Home</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 5:03 </span>
+            <i id="5" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="coversomewhere.jpg" alt="1" />
+          <span> Somewhere Only we Know</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 3:57 </span>
+            <i id="6" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covervivalavida.jpg" alt="1" />
+          <span> Viva la Vida</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 4:03 </span>
+            <i id="7" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covertekit.jpg" alt="1" />
+          <span> Tek It </span>
+          <span class="songlistplay">
+            <span class="timestamp"> 3:12 </span>
+            <i id="8" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covermakeumine.jpg" alt="1" />
+          <span> Make You Mine</span>
+          <span class="songlistplay">
+            <span class="timestamp"> 3:53 </span>
+            <i id="9" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covercig.jpg" alt="1" />
+          <span> Cigarette Daydreams </span>
+          <span class="songlistplay">
+            <span class="timestamp"> 3:29 </span>
+            <i id="10" class="fa-regular songItemPlay fa-circle-play fa-2x"></i>
+          </span>
+        </div>
+      </div>
+      <div class="songList"></div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <!-- Font Awesome Icons -->
+        <i class="fa-solid fa-backward fa-3x"></i>
+        <i class="fa-regular fa-circle-play fa-3x" id="masterPlay"></i>
+        <i class="fa-solid fa-forward fa-3x"></i>
+      </div>
+      <div class="songInfo">
+        <img src="audio-8777_256.gif" width="42px" alt="Playing..." id="gif" />
+        We Fell in Love in October
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
